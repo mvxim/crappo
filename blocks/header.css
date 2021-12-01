@@ -2,12 +2,6 @@
   background-color: hsla(240, 54%, 11%, 1.00);
 }
 
-.header__container {
-  margin: 0 auto;
-  max-width: 1200px;
-  min-width: 320px;
-}
-
 .header__logo {
   width: 134px;
   height: 40px;

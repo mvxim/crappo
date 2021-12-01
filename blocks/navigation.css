@@ -46,15 +46,4 @@
 
 .navigation__item_button {
   margin-left: 48px;
-  font-weight: 500;
-  padding: 14px 32px;
-  border-radius: 32px;
-  background-color: hsla(220, 80%, 56%, 1.00);
-  cursor: pointer;
-  transition: .2s ease background-color, color;
-}
-
-.navigation__item_button:hover {
-  background-color: hsla(220, 80%, 56%, .7);
-  color: hsla(0, 0%, 100%, .7)
 }

@@ -6,9 +6,11 @@
 
 /*Стили*/
 @import url(../blocks/page.css);
+@import url(../blocks/container.css);
 
 @import url(../blocks/link.css);
-
+@import url(../blocks/button.css);
 
 @import url(../blocks/header.css);
 @import url(../blocks/navigation.css);
+@import url(../blocks/lead.css);
