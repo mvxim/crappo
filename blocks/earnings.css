@@ -31,5 +31,7 @@
 }
 
 .earnings__calc {
-
+  /*transform: translateY(100px);*/
+  max-width: 940px;
+  width: 100%;
 }
