@@ -1,0 +1,31 @@
+.earnings .calc {
+  /*transform: translateY(100px);*/
+  max-width: 940px;
+  background-color: hsla(0, 0%, 100%, .95);
+  box-shadow: 0 20px 200px hsla(261, 68%, 28%, 0.05);
+}
+
+.calc__form {
+}
+
+.calc__form-element {
+
+}
+
+.calc__input {
+}
+
+.calc__select {
+}
+
+.calc__button {
+}
+
+.calc__heading {
+}
+
+.calc__output {
+}
+
+.calc__disclaimer {
+}

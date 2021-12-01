@@ -1,8 +1,9 @@
 /*Normalize*/
 @import url(../vendor/normalize.css);
 
-/*Шрифты*/
-@import url(../fonts/fonts.css);
+/*Шрифты и переменные*/
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/var.css);
 
 /*Стили*/
 @import url(../blocks/page.css);
@@ -10,7 +11,11 @@
 
 @import url(../blocks/link.css);
 @import url(../blocks/button.css);
+@import url(../blocks/title.css);
 
 @import url(../blocks/header.css);
 @import url(../blocks/navigation.css);
 @import url(../blocks/lead.css);
+@import url(../blocks/stats.css);
+@import url(../blocks/earnings.css);
+@import url(../blocks/calc.css);

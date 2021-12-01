@@ -2,7 +2,7 @@
   font-weight: 500;
   padding: 14px 32px;
   border-radius: 32px;
-  background-color: hsla(220, 80%, 56%, 1.00);
+  background-color: var(--blue);
   cursor: pointer;
   transition: background-color, transform .2s ease-in-out;
   text-align: center;

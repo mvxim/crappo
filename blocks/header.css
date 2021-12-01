@@ -1,5 +1,5 @@
 .header {
-  background-color: hsla(240, 54%, 11%, 1.00);
+  background-color: var(--dark-bg);
 }
 
 .header__logo {

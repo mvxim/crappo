@@ -1,5 +1,5 @@
 .lead {
-  background-color: hsla(240, 54%, 11%, 1.00);
+  background-color: var(--dark-bg);
 }
 
 .lead__content {
@@ -22,7 +22,7 @@
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
-  color: hsla(0, 0%, 100%, 1);
+  color: var(--white);
   background-color: hsla(0, 0%, 100%, 0.10);
   -webkit-border-radius: 32px;
   -moz-border-radius: 32px;
@@ -34,8 +34,8 @@
   display: inline-block;
   margin-right: 16px;
   padding: 4px 16px;
-  color: hsla(240, 54%, 11%, 1.00);
-  background-color: hsla(0, 0%, 100%, 1);
+  color: var(--dark-bg);
+  background-color: var(--white);
   font-weight: 500;
   line-height: 1.5;
   border-radius: 32px;
@@ -57,15 +57,17 @@
   font-size: 64px;
   line-height: 1.19;
   font-weight: 700;
-  color: hsla(0, 0%, 100%, 1);
+  color: var(--white);
 }
 
 .lead__subtitle {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.75;
   letter-spacing: 0.01em;
-  color: hsla(0, 0%, 88%, 1.00);
+  color: var(--light-grey);
 }
 
 .lead__button {

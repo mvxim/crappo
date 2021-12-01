@@ -1,6 +1,7 @@
 .page {
+  min-height: 100vh;
   font-family: "Rubik", Helvetica, Arial, sans-serif;
-  color: hsla(0, 0%, 100%, 1.00);
+  color: var(--white);
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -8,7 +9,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  background-color: hsla(0, 0%, 100%, 1.00);
+  background-color: var(--white);
 }
 
 .page__header {
@@ -17,4 +18,12 @@
 
 .page__lead {
   padding: 50px 0 100px 0;
+}
+
+.page__stats {
+  padding: 100px 0 115px;
+}
+
+.page__earnings {
+  padding: 100px 0 115px;
 }
