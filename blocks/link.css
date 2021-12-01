@@ -1,0 +1,11 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  transition: .2s all;
+  cursor: pointer;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.link:hover {
+  color: hsla(0, 0%, 100%, .7);
+}

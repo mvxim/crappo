@@ -1,0 +1,16 @@
+.page {
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
+  color: hsla(0, 0%, 100%, 1.00);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  background-color: hsla(0, 0%, 100%, 1.00);
+}
+
+.page__header {
+  padding: 60px 0 0 0;
+}
