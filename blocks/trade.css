@@ -13,7 +13,9 @@
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  row-gap: 32px;
+  justify-content: center;
   -webkit-column-gap: 45px;
   -moz-column-gap: 45px;
   column-gap: 45px;
@@ -58,7 +60,7 @@
 }
 
 .trade__ticker {
-  margin-left: 4px;
+  margin-left: 8px;
   display: inline-block;
   font-weight: 500;
   font-size: 18px;
@@ -112,9 +114,12 @@
   position: absolute;
   visibility: hidden;
   top: 50%;
-  left: 16px;
+  left: 24px;
   transform: translateY(-50%);
   transition: all .2s ease-in-out;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .trade__item:hover .trade__button-text {
