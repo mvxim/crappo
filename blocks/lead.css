@@ -4,7 +4,7 @@
 
 .lead__content {
   display: flex;
-  column-gap: 8px;
+  column-gap: 12px;
   align-items: center;
 }
 
@@ -13,6 +13,7 @@
   flex-direction: column;
   row-gap: 24px;
   align-items: flex-start;
+  max-width: 588px;
 }
 
 .lead__offer {
@@ -77,8 +78,9 @@
 }
 
 .lead__illustration {
-  width: 604px;
-  height: 586px;
+  max-width: 604px;
+  width: 100%;
+  min-width: 200px;
   transition: .5s transform ease-in-out;
 }
 

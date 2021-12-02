@@ -25,5 +25,9 @@
 }
 
 .page__earnings {
-  padding: 100px 0 115px;
+  padding: 100px 0 0 0;
+}
+
+.page__trade {
+  padding: 316px 0 100px;
 }
