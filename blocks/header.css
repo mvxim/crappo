@@ -2,14 +2,26 @@
   background-color: var(--dark-bg);
 }
 
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo-link {}
+
 .header__logo {
   width: 134px;
   height: 40px;
   object-fit: contain;
 }
 
-@media screen and (max-width: 1439px) {
+.header__navigation {
+  width: 100%;
+}
+
+@media screen and (max-width: 919px) {
   .header__container {
-    padding: 0 120px;
+    flex-direction: column;
   }
 }

@@ -13,7 +13,6 @@
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: wrap;
   row-gap: 32px;
   justify-content: center;
   -webkit-column-gap: 45px;

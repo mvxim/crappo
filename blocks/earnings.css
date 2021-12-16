@@ -34,4 +34,5 @@
   margin: 0 48px -216px 48px;
   max-width: 940px;
   width: 100%;
+  box-sizing: border-box;
 }
